@@ -13,12 +13,12 @@ const Main = () => {
                         Mehmet Eker 
                     </h1>
 
-                    <h2  className="flex text-center sm:text-3xl text-2xl pt-4 text-gray-100 ph-4">
+                    <h2  className="flex text-center sm:text-3xl text-xl pt-4 text-gray-100 p-2">
                         5+ Years of Active Developer Experience <br />
                         Specializing in Mobile Application Development
                     </h2>
-                    <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-100 ph-4'>
-                        I'm someone who <br />
+                    <h2 className='flex sm:text-3xl text-xl pt-4 text-gray-100 p-4'>
+                        I'm someone who 
                         <TypeAnimation
                             sequence={[
                                 'Embraces the Challenge',
