@@ -61,7 +61,7 @@ function Projects() {
           icon={<MdWork />}
           >
 
-          <h3 className="vertical-timeline-element-title text-gray-100">Freelance</h3>
+          <h3 className="vertical-timeline-element-title text-gray-100">Freelance/Software Developer</h3>
           <h4 className="vertical-timeline-element-subtitle text-gray-100">Istanbul, Türkiye</h4>
           <p className='text-gray-100'>
             Develop a software that collects data on amazon website and displays it on a graph. Modify and maintain existing software to adapt to new system, improve performance and scale with client needs and request. Work closely with clients to establish problem specifications and system designs. Aimed for a 30% annual increase.
@@ -78,7 +78,7 @@ function Projects() {
           icon={<MdWork />}
           >
 
-          <h3 className="vertical-timeline-element-title text-gray-100">Freelance</h3>
+          <h3 className="vertical-timeline-element-title text-gray-100">Freelance/Software Developer</h3>
           <h4 className="vertical-timeline-element-subtitle text-gray-100">Istanbul, Türkiye</h4>
           <p className='text-gray-100'>
             From 2016 to 2018 in Istanbul, I developed a private school application that allowed students to check their exam results, course grades, and access test practice materials. I designed the entire application using a monolithic-based architecture, focusing on creating both the graphical user interface (GUI) and the API. This development led to a noticeable improvement in students' exam scores, with an increase of between 10 and 20 percent. The project utilized a technical environment that included Unity2D, Visual Studio, Unity Remote, GitHub, Android Studio, and Windows OS.
@@ -94,7 +94,7 @@ function Projects() {
           icon={<MdWork />}
           >
 
-          <h3 className="vertical-timeline-element-title text-gray-100">Freelance</h3>
+          <h3 className="vertical-timeline-element-title text-gray-100">Freelance/Software Developer</h3>
           <h4 className="vertical-timeline-element-subtitle text-gray-100">Istanbul, Türkiye</h4>
           <p className='text-gray-100'>
             
