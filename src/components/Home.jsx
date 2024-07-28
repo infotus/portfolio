@@ -1,5 +1,6 @@
 import React from "react";
 import {TypeAnimation} from "react-type-animation";
+
 // import {FaFacebook, FaInstagram, FaXTwitter, FaYoutube, FaSquareThreads} from "react-icons/fa6";
 // import backgroundImg from '../assets/logo3.jpg'
 

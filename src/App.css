@@ -1,7 +1,18 @@
-#particles1 canvas {
+/* #particles1 canvas {
     z-index: -1;
     height: 100%;
     width: 100%;
     position: absolute;
-}
+} */
 
+
+/* #tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  } */
