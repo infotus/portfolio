@@ -15,7 +15,7 @@ const Main = () => {
                     </h1>
 
                     <h2  className="flex text-center sm:text-3xl text-xl pt-4 text-gray-100 p-2">
-                        5+ Years of Active Developer Experience <br />
+                        7+ Years of Active Developer Experience <br />
                         Specializing in Mobile Application Development
                     </h2>
                     <h2 className='flex sm:text-3xl text-xl pt-4 text-gray-100 p-4'>

@@ -10,7 +10,9 @@ function About() {
             <img src={profile} className='md:w-[60%] w-[60%] p-2 md:pl-20' />
             <div className='items-center p-2 text-lg text-white'>
                 <span className='p-2 text-2xl'>ABOUT ME</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, minima corporis fuga ipsum amet deleniti dolores obcaecati quo animi? Adipisci commodi odio corrupti temporibus nulla maxime eum unde consectetur quo!</p>
+                <p>
+                  Hello! I'm Mehmet Eker, a passionate software developer with over 7 years of experience in crafting mobile applications. My journey in the tech world began with a fascination for how technology can transform lives, and since then, I've dedicated myself to mastering the art of mobile app development.
+                </p>
             </div>
           </div>
 
