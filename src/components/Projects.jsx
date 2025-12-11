@@ -58,7 +58,7 @@ function Projects() {
             <h3 className="vertical-timeline-element-title text-gray-100">Freelance/Software Developer</h3>
             <h4 className="vertical-timeline-element-subtitle text-gray-100">Istanbul, Türkiye</h4>
             <p className='text-gray-100'>
-              During my friend Master's thesis at Yildiz Technical University in Istanbul from 2016 to 2017, I worked as part of a two-person team to develop a GPS-based augmented reality application. This application utilized a local coordinate system to display underground channels via a mobile camera. We enhanced GPS accuracy for measurements under 100 meters by utilizing only L1 and L5 frequencies, achieving an accuracy range of 2 to 5 meters. The project was developed using Unity3D, Visual Studio, Unity Remote, GitHub, Mapbox SDK, Vuforia SDK, and Windows OS.
+                During my friend Master's thesis at Yildiz Technical University in Istanbul from 2016 to 2017, I worked as part of a two-person team to develop a GPS-based augmented reality application. This application utilized a local coordinate system to display underground channels via a mobile camera. We enhanced GPS accuracy for measurements under 100 meters by utilizing only L1 and L5 frequencies, achieving an accuracy range of 2 to 5 meters. The project was developed using Unity3D, Visual Studio, Unity Remote, GitHub, Mapbox SDK, Vuforia SDK, and Windows OS.
             </p>
           </VerticalTimelineElement>
 
