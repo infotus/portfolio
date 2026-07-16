@@ -11,7 +11,7 @@ function About() {
             <div className='items-center p-2 text-lg text-white'>
                 <span className='p-2 text-2xl'>ABOUT ME</span>
                 <p>
-                  Hello! I'm Mehmet Eker, a passionate software developer with over 7 years of experience in crafting mobile applications. My journey in the tech world began with a fascination for how technology can transform lives, and since then, I've dedicated myself to mastering the art of mobile app development.
+                  Hello! I'm Mehmet Eker, a passionate software developer with over 8+ years of experience in crafting mobile applications. My journey in the tech world began with a fascination for how technology can transform lives, and since then, I've dedicated myself to mastering the art of mobile app development.
                 </p>
             </div>
           </div>

@@ -9,7 +9,6 @@ function Projects() {
   return (
     <div id='resume'>
       <div className='w-full h-full'>
-
         <h1 className='text-5xl text-center text-bold text-teal-800 pt-5'> Resume</h1>
 
         {/* <div class="absolute left-1/2 -ml-0.5 w-0.5 h-screen bg-gray-600"></div> */}
@@ -94,6 +93,30 @@ function Projects() {
             </p>
           </VerticalTimelineElement>
 
+          {/* Heja Construction */}
+          <VerticalTimelineElement
+            contentStyle={{ background: 'rgb(0,128,128)', color: '#008080' }}
+            contentArrowStyle={{ borderRight: '7px solid rgb(0,128,128)' }}
+            date="2016 - 2020"
+            iconStyle={{ background: 'rgb(0,128,128)', color: '#FFFFFF' }}
+            className="vertical-timeline-element--work"
+            icon={<MdWork />}
+          >
+            <h3 className="vertical-timeline-element-title text-gray-100">
+              Heja Construction Co.
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle text-gray-100">
+              Istanbul, Türkiye
+            </h4>
+            <p className="text-gray-100">
+              Worked as a Project Manager, leading residential and commercial construction
+              projects from planning through completion. Managed project schedules,
+              contractor coordination, budgeting, cost estimation, contract preparation,
+              quality control, and site supervision while ensuring projects were delivered
+              on time and within budget.
+            </p>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement 
             contentStyle={{ background: '	rgb(0,128,128)', color: '#008080' }}
             contentArrowStyle={{ borderRight: '7px solid  	rgb(0,128,128)' }}
@@ -107,77 +130,128 @@ function Projects() {
 
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement 
-          contentStyle={{ background: '	rgb(0,128,128)', color: '#008080' }}
-          contentArrowStyle={{ borderRight: '7px solid  	rgb(0,128,128)' }}
-          date="2022 - 2024"
-          iconStyle={{ background: '	rgb(0,128,128)', color: '#FFFFFF' }}
-          className="vertical-timeline-element--work"
-          icon={<MdWork />}
+          {/* KYI */}
+          <VerticalTimelineElement
+            contentStyle={{ background: 'rgb(0,128,128)', color: '#008080' }}
+            contentArrowStyle={{ borderRight: '7px solid rgb(0,128,128)' }}
+            date="Jul 2022 - Aug 2024"
+            iconStyle={{ background: 'rgb(0,128,128)', color: '#FFFFFF' }}
+            className="vertical-timeline-element--work"
+            icon={<MdWork />}
           >
-          <h3 className="vertical-timeline-element-title text-gray-100">Kyi Co. Ltd. </h3>
-          <h4 className="vertical-timeline-element-subtitle text-gray-100">Tokyo, Japan</h4>
-          <p className='text-gray-100'>
-            1. Vingrid : As a programmer, I worked on terrain design and improvement, built animations and interactions, and optimized video and system performance to enhance environment quality. I also prepared documentation for the application’s publication. The app was successfully launched on both Android and iOS platforms using Unity3D, Blender, Houdini, Visual Studio, GitHub, AWS, Sourcetree, Laravel, PHP, C#, and Unity Visual Scripting (Bolt).
-          </p>
+            <h3 className="vertical-timeline-element-title text-gray-100">
+              KYI Co. Ltd.
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle text-gray-100">
+              Tokyo, Japan
+            </h4>
 
-          <p className='text-gray-100'>
-            2. Hoshiyomi (ほしよみ参道) : My role involved terrain design and optimization, reducing the app size from over 1GB to less than 150MB, and improving environment quality. I implemented an in-app purchase system and built a data encryption system while preparing documentation for publication. The app was released on Android and iOS platforms, leveraging Unity3D, Blender, Visual Studio, GitHub, C#, and AWS.
-          </p>
+            <p className="text-gray-100">
+              <strong>1. Vingrid:</strong> Contributed to the development of a VR
+              application by designing and optimizing 3D environments, creating
+              animations, improving application performance, and preparing releases for
+              Android and iOS using Unity, C#, AWS, GitHub, and Visual Studio.
+            </p>
 
-          <p className='text-gray-100'>
-            3. Cheer Supports : I designed the system using the MVVM architecture model, focusing on UI/UX design, synchronizing application data with AWS database connections, and developing new API routes for performance improvement. Additionally, I implemented in-app purchases, built a chat system, and established data encryption/decryption systems. I also prepared the publication documentation for the app, which was launched on both Android and iOS platforms using Swift 5, Xcode, GitHub, Laravel, AWS, VSCode, MacOS, and Windows.
-          </p>
+            <p className="text-gray-100">
+              <strong>2. Hoshiyomi (ほしよみ参道):</strong> Developed and optimized a VR
+              shrine experience, improving environment quality, implementing an in-app
+              purchase system, and contributing to programming, testing, and deployment
+              using Unity, C#, GitHub, and AWS.
+            </p>
+
+            <p className="text-gray-100">
+              <strong>3. Cheer Supports:</strong> Developed new features for the official
+              iOS application, including chat, electronic payments, login bonuses, points,
+              notifications, API integration, database development, UI improvements, and
+              data encryption/decryption using Swift, Laravel, PHP, Xcode, and GitHub.
+            </p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement 
-            contentStyle={{ background: '	rgb(0,128,128)', color: '#008080' }}
-            contentArrowStyle={{ borderRight: '7px solid  	rgb(0,128,128)' }}
-            date="2024 - 2025"
-            iconStyle={{ background: '	rgb(0,128,128)', color: '#FFFFFF' }}
+          {/* Extreme */}
+          <VerticalTimelineElement
+            contentStyle={{ background: 'rgb(0,128,128)', color: '#008080' }}
+            contentArrowStyle={{ borderRight: '7px solid rgb(0,128,128)' }}
+            date="Oct 2024 - Dec 2024"
+            iconStyle={{ background: 'rgb(0,128,128)', color: '#FFFFFF' }}
             className="vertical-timeline-element--work"
             icon={<MdWork />}
-            >
-            <h3 className="vertical-timeline-element-title text-gray-100">Extreme Co. Ltd. </h3>
-            <h4 className="vertical-timeline-element-subtitle text-gray-100">Tokyo, Japan</h4>
-            <p className='text-gray-100'>
-              1. Nippon TV Election Program : I contributed to the update and enhancement of the election live-view system used by Nippon TV during national election broadcasts. My responsibilities included refining the UI design, fixing existing system issues, adding new software modules, and performing testing to ensure system stability. Working with Visual Basic 2015 and .NET Framework, I delivered accurate and timely updates within a fast-paced broadcast environment requiring high reliability. All development communication and coordination were conducted in Japanese.
+          >
+            <h3 className="vertical-timeline-element-title text-gray-100">
+              Extreme Co. Ltd.
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle text-gray-100">
+              Tokyo, Japan
+            </h4>
+
+            <p className="text-gray-100">
+              <strong>1. Nippon TV Election System:</strong> Participated in updating the
+              election live-view system used during national election broadcasts.
+              Responsible for UI improvements, system enhancements, software integration,
+              testing, and maintenance using Visual Basic 2015 and .NET Framework.
             </p>
 
-            <p className='text-gray-100'>
-              2. Kagome Mobile Application : I participated in the feature development of Kagome’s official iOS application. I handled new feature implementation, UI design, database structure design, coding, testing, and release processes. Using Swift and Xcode, I enhanced the user experience and ensured consistency with existing app functions. The project required attention to detail and rapid delivery, and I worked collaboratively in a Japanese development environment.
+            <p className="text-gray-100">
+              <strong>2. Kagome Official App:</strong> Developed new features for
+              Kagome's official iOS application, including UI implementation, database
+              development, programming, testing, and release using Swift and Xcode.
             </p>
-
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement 
-            contentStyle={{ background: '	rgb(0,128,128)', color: '#008080' }}
-            contentArrowStyle={{ borderRight: '7px solid  	rgb(0,128,128)' }}
-            date="2025 - Present"
-            iconStyle={{ background: '	rgb(0,128,128)', color: '#FFFFFF' }}
+          {/* Raxeria */}
+          <VerticalTimelineElement
+            contentStyle={{ background: 'rgb(0,128,128)', color: '#008080' }}
+            contentArrowStyle={{ borderRight: '7px solid rgb(0,128,128)' }}
+            date="Mar 2025 - Present"
+            iconStyle={{ background: 'rgb(0,128,128)', color: '#FFFFFF' }}
             className="vertical-timeline-element--work"
             icon={<MdWork />}
-            >
-            <h3 className="vertical-timeline-element-title text-gray-100">Raxeria Co. Ltd. </h3>
-            <h4 className="vertical-timeline-element-subtitle text-gray-100">Tokyo, Japan</h4>
-            <p className='text-gray-100'>
-              1. Corporate Website (Raxeria Official Site) : I led the redevelopment of Raxeria’s corporate website, handling UI adjustments, front-end development, testing, deployment, and ongoing maintenance. Using Next.js, TypeScript, and Vercel, I built a fast, responsive, SEO-optimized website aligned with the company’s brand. This project significantly improved the company’s online presence and communication of its services.
+          >
+            <h3 className="vertical-timeline-element-title text-gray-100">
+              Raxeria Co. Ltd.
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle text-gray-100">
+              Tokyo, Japan
+            </h4>
+
+            <p className="text-gray-100">
+              <strong>1. Corporate Website (Raxeria Official Site):</strong> Developed
+              and maintained Raxeria's corporate website using Next.js, TypeScript, and
+              Vercel. Responsible for UI implementation, testing, deployment, SEO
+              optimization, and ongoing maintenance to strengthen the company's online
+              presence.
             </p>
 
-            <p className='text-gray-100'>
-              2. Online English Conversation Web App (Noe Talk) : I contributed to the development of an online English conversation web application that allows users to practice speaking with both AI and human partners. Using Vite, Laravel, MySQL, and Nginx, I was responsible for UI improvements, backend development, testing, deployment, and continued maintenance. I participated in designing complex conversation logic, user management systems, and overall service flow. The project was conducted primarily in English, requiring active technical collaboration within the team.
+            <p className="text-gray-100">
+              <strong>2. Online English Conversation Platform (Noe Talk):</strong>
+              Contributed to the development of an AI-powered English conversation
+              platform that enables users to practice with both AI and human partners.
+              Worked on UI improvements, backend development, user management,
+              conversation logic, deployment, testing, and maintenance using Vite,
+              Laravel, MySQL, and Nginx.
             </p>
 
-            <p className='text-gray-100'>
-              3. AI Video Generation Web App (ErosMuse) : I am currently the primary developer of an AI-powered video generation web service that transforms a single input image into a short generated video. I am responsible for API development, UI design, database creation, programming, deployment, and maintenance using technologies such as Next.js, FastAPI, PostgreSQL, Docker, and DigitalOcean. As the lead developer during the service’s initial phase, I am shaping the architecture, improving performance, and ensuring a smooth user experience for this cutting-edge AI application.
+            <p className="text-gray-100">
+              <strong>3. AI Video Generation Platform (ErosMuse):</strong> Lead developer
+              of an AI-powered web application that generates short videos from a single
+              image. Designed APIs, databases, UI, deployment, and infrastructure using
+              Next.js, FastAPI, PostgreSQL, Docker, and DigitalOcean.
+            </p>
+
+            <p className="text-gray-100">
+              <strong>4. Computer Vision Mobile Application:</strong> Designed and
+              developed an end-to-end Android application that automates complex gaming
+              tasks using computer vision and a custom YOLO model. Responsible for API
+              development, UI design, machine learning integration, database development,
+              deployment, and maintenance using Kotlin, FastAPI, PostgreSQL, Docker, and
+              Android Studio.
             </p>
           </VerticalTimelineElement>
 
         </VerticalTimeline>
 
       </div>
-
-
+      
     </div>
   )
 }
